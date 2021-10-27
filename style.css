@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x; hidden;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+.wrapper{
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  min-height: 100vh;
+  margin:auto;
+  background: rgb(232,211,135);
+  background: linear-gradient(220deg, rgba(232,211,135,1) 0%, rgba(255,205,105,1) 72%, rgba(27,162,255,0.269642891336222) 100%);
+}
+.brand-img{
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+.title{
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67px;
+  color: #54575A;
+}
+.text{
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #54575A;
+}
+.aple-store-btn{
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+.aple-store-btn img, .glg-play-btn img{
+  width: 138.44px;
+  height: 46.28px;
+}
+.glg-play-btn{
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;  
+}
+.main-img-container{
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+.main-img-container img{
+  height: 411.15px;
+}
+.profile-img{
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+}
+.orders-img{
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+.cart-img{
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+.home-img{
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
+.product-img{
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+}
